@@ -1,0 +1,16 @@
+To fix this issue and ensure even spacing regardless of the item's width, you need to change the `justify-content` property to `space-around`. 
+
+```css
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+```
+
+Alternatively, you could use a different layout method such as grid, which makes achieving even spacing easier.
