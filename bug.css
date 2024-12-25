@@ -1,0 +1,16 @@
+The following CSS code snippet has a common error that can be difficult to detect:
+
+```css
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+```
+
+This code intends to create three items that are spaced evenly within a flex container. However, if you run this code, the result might not be what you expect. The flex items might not be evenly spaced.
